@@ -7,11 +7,11 @@ namespace Songstress_Plugin
     {
         private static void Charm(CharacterBody self, CharacterBody charmer, int itemsToCopy)
         {
-            //Can only charm non-boss, non-elite, monsters
-            if (self.teamComponent.teamIndex == TeamIndex.Monster && !self.isBoss && !self.isElite)
+            //Can only charm non-boss, non-elite, non-players
+            if (!self.isBoss && !self.isElite && !self.isPlayerControlled)
             {
                 //Swap to the player team
-                self.teamComponent.teamIndex = TeamIndex.Player;
+                self.teamComponent.teamIndex = charmer.teamComponent.teamIndex;
 
                 //Planned feature of a particle effect of hearts or something
 
