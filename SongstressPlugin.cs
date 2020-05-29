@@ -4,7 +4,7 @@ using R2API.Utils;
 namespace Songstress_Plugin
 {
     [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
-    [R2APISubmoduleDependency(new string[] { "ItemAPI", "ItemDropAPI", "ResourcesAPI", "LanguageAPI", "BuffAPI" })]
+    [R2APISubmoduleDependency(new string[] { "ItemAPI", "ItemDropAPI", "ResourcesAPI", "LanguageAPI" })]
     [BepInPlugin(modGuid, modName, modVer)]
     public sealed class SongstressPlugin : BaseUnityPlugin
     {
@@ -16,7 +16,6 @@ namespace Songstress_Plugin
         private void Awake()
         {
             if (Instance == null) { Instance = this; }
-            CharmBuff.Init();
         }
     }
 }
