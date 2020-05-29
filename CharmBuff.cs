@@ -29,18 +29,24 @@ namespace Songstress_Plugin
         private static void CharacterBody_AddCharmBuff(On.RoR2.CharacterBody.orig_AddBuff orig, CharacterBody self, BuffIndex buffType)
         {
             orig(self, buffType);
-            if (buffType == buffIndex)
-            {
-
-            }
+            if (buffType == buffIndex) SwapTeams(self);
         }
 
         private static void CharacterBody_RemoveCharmBuff(On.RoR2.CharacterBody.orig_RemoveBuff orig, CharacterBody self, BuffIndex buffType)
         {
             orig(self, buffType);
-            if (buffType == buffIndex)
-            {
+            if (buffType == buffIndex) SwapTeams(self);
+        }
 
+        private static void SwapTeams(CharacterBody self)
+        {
+            if (self.teamComponent.teamIndex == TeamIndex.Monster)
+            {
+                self.teamComponent.teamIndex = TeamIndex.Player;
+            }
+            else if (self.teamComponent.teamIndex == TeamIndex.Player)
+            {
+                self.teamComponent.teamIndex = TeamIndex.Monster;
             }
         }
     }
