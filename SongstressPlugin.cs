@@ -1,4 +1,5 @@
 ﻿using BepInEx;
+using RoR2;
 using R2API.Utils;
 
 namespace Songstress_Plugin
