@@ -1,11 +1,10 @@
 ﻿using BepInEx;
-using RoR2;
 using R2API.Utils;
 
 namespace Songstress_Plugin
 {
     [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
-    [R2APISubmoduleDependency(new string[] { "ItemAPI", "ItemDropAPI", "ResourcesAPI", "LanguageAPI" })]
+    [R2APISubmoduleDependency(new string[] { "ItemAPI", "ItemDropAPI", "ResourcesAPI", "LanguageAPI", "SurvivorAPI", "LoadoutAPI" })]
     [BepInPlugin(modGuid, modName, modVer)]
     public sealed class SongstressPlugin : BaseUnityPlugin
     {
