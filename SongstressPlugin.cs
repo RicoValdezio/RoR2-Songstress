@@ -1,5 +1,6 @@
 ﻿using BepInEx;
 using R2API.Utils;
+using SongstressPlugin;
 
 namespace Songstress_Plugin
 {
@@ -16,6 +17,8 @@ namespace Songstress_Plugin
         private void Awake()
         {
             if (Instance == null) Instance = this;
+            IntonerColors.Init();
+            Songstress.Init();
         }
     }
 }

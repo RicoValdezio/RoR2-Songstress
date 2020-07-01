@@ -10,5 +10,32 @@ namespace SongstressPlugin
         internal static Color ThreeEye = new Color(0.785156f, 0.347656f, 0.921875f); //#C959EC
         internal static Color FourEye = new Color(0.070312f, 0.683593f, 0.593750f); //#12AF98
         internal static Color FiveEye = new Color(0.628906f, 0.593750f, 0.480469f); //#A1987B
+        internal static Color ChosenColor;
+
+        internal static void Init()
+        {
+            if (Random.Range(1, 100) >= 95)
+            {
+                switch (Random.Range(1, 5))
+                {
+                    case 1:
+                        ChosenColor = OneEye;
+                        break;
+                    case 2:
+                        ChosenColor = TwoEye;
+                        break;
+                    case 3:
+                        ChosenColor = ThreeEye;
+                        break;
+                    case 4:
+                        ChosenColor = FourEye;
+                        break;
+                    case 5:
+                        ChosenColor = FiveEye;
+                        break;
+                }
+            }
+            ChosenColor = ZeroEye;
+        }
     }
 }
