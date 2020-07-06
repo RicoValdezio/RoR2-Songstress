@@ -1,8 +1,7 @@
 ﻿using BepInEx;
 using R2API.Utils;
-using SongstressPlugin;
 
-namespace Songstress_Plugin
+namespace SongstressPlugin
 {
     [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
     [R2APISubmoduleDependency(new string[] { "ItemAPI", "ItemDropAPI", "ResourcesAPI", "LanguageAPI", "SurvivorAPI", "LoadoutAPI" })]

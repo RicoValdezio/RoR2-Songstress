@@ -1,10 +1,9 @@
 ﻿using R2API;
 using RoR2;
-using SongstressPlugin;
 using System;
 using UnityEngine;
 
-namespace Songstress_Plugin
+namespace SongstressPlugin
 {
     internal class Songstress
     {
@@ -30,7 +29,7 @@ namespace Songstress_Plugin
         private static void SetupTokens()
         {
             LanguageAPI.Add("SONGSTRESS_NAME", "Songstress");
-            string desc = "The Songstress is a hybrid/support character who excels in fighting large groups and buffing their team."
+            string desc = "The Songstress is a hybrid support character who excels in fighting large groups and buffing their team."
                         + "<color=#CCD3E0>"
                         + Environment.NewLine + Environment.NewLine
                         + "< ! > Something about Star Power/In-Tune."
