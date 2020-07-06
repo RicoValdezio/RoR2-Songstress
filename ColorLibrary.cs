@@ -2,8 +2,9 @@
 
 namespace SongstressPlugin
 {
-    class IntonerColors
+    class ColorLibrary
     {
+        //Intoner-Specific UnityEngine Colors
         internal static Color ZeroColor = new Color(0.988281f, 0.609375f, 0.699218f); //#FD9CB3
         internal static Color OneColor = new Color(0.910156f, 0.3515625f, 0.535156f); //#E95A89
         internal static Color TwoColor = new Color(0.171875f, 0.535156f, 0.738281f); //#2C89BD
@@ -12,6 +13,7 @@ namespace SongstressPlugin
         internal static Color FiveColor = new Color(0.628906f, 0.593750f, 0.480469f); //#A1987B
         internal static Color ChosenColor;
 
+        //Intoner-Specific HexString Colors
         internal static string ZeroString = "<color=#FD9CB3>";
         internal static string OneString = "<color=#E95A89>";
         internal static string TwoString = "<color=#2C89BD>";
@@ -19,6 +21,10 @@ namespace SongstressPlugin
         internal static string FourString = "<color=#12AF98>";
         internal static string FiveString = "<color=#A1987B>";
         internal static string ChosenString;
+
+        //General Purpose HexString Colors
+        internal static string EndString = "</color>";
+        internal static string DescGreyString = "<color=#CCD3E0>";
 
         internal static void Init()
         {

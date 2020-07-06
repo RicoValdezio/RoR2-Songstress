@@ -16,7 +16,7 @@ namespace SongstressPlugin
         private void Awake()
         {
             if (Instance == null) Instance = this;
-            IntonerColors.Init();
+            ColorLibrary.Init();
             Songstress.Init();
         }
     }
