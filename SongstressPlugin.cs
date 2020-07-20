@@ -18,6 +18,7 @@ namespace SongstressPlugin
             if (instance == null) instance = this;
             ColorLibrary.Init();
             SongstressSurvivor.Init();
+            TestTimerHook.Init(); //This is debug only
         }
     }
 }
