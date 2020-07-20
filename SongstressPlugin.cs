@@ -11,13 +11,13 @@ namespace SongstressPlugin
         private const string modName = "Songstress";
         private const string modGuid = "com.RicoValdezio." + modName;
         private const string modVer = "0.0.1";
-        internal static SongstressPlugin Instance;
+        internal static SongstressPlugin instance;
 
         private void Awake()
         {
-            if (Instance == null) Instance = this;
+            if (instance == null) instance = this;
             ColorLibrary.Init();
-            Songstress.Init();
+            SongstressSurvivor.Init();
         }
     }
 }

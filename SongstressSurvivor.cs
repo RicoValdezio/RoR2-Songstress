@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace SongstressPlugin
 {
-    internal class Songstress
+    internal class SongstressSurvivor
     {
         internal static GameObject magePrefab;
         internal static GameObject bodyPrefab;
