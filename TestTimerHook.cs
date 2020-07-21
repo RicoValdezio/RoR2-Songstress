@@ -5,6 +5,7 @@ namespace SongstressPlugin
 {
     class TestTimerHook
     {
+        //Looking at Aatrox, there's an InvokeRepeating to drain, maybe look at that
         private static float runningTimer = 0f, timeSinceUpdate = 0f;
         internal static void Init()
         {

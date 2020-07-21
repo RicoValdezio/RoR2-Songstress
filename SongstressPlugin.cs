@@ -4,7 +4,7 @@ using R2API.Utils;
 namespace SongstressPlugin
 {
     [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
-    [R2APISubmoduleDependency(new string[] { "ItemAPI", "ItemDropAPI", "ResourcesAPI", "LanguageAPI", "SurvivorAPI", "LoadoutAPI" })]
+    [R2APISubmoduleDependency(new string[] { "BuffAPI", "ResourcesAPI", "LanguageAPI", "SurvivorAPI", "LoadoutAPI" })]
     [BepInPlugin(modGuid, modName, modVer)]
     public sealed class SongstressPlugin : BaseUnityPlugin
     {
@@ -18,7 +18,8 @@ namespace SongstressPlugin
             if (instance == null) instance = this;
             ColorLibrary.Init();
             SongstressSurvivor.Init();
-            TestTimerHook.Init(); //This is debug only
+            BuffLibrary.Init();
+            //TestTimerHook.Init(); //This is debug/play only
         }
     }
 }
