@@ -1,0 +1,29 @@
+﻿Base Form:
+  Primary:
+    Melee: Side-to-side swing with moderate damage and range (like Merc but slower and harder)
+    Ranged: Slow-firing, fast moving bullet with moderate damage (like Artificer but without recharge)
+  Secondary:
+    Melee: Uppercut jump and dive (based on whether grounded or aerial), dive has small AoE stun
+    Ranged: Large bullet with heavy damage and stun (sorta like Artificer but without upcharge)
+  Utility: AoE stun with moderate damage, damage based on distance from caster
+  Special: Transform to either Encore or Solo form
+
+Encore Form: (Sacrifice own health?) to fire healing orbs at allies, orb health and target based on need
+  Primary:
+    Melee: Afterimage animation that applies a weaker delayed hit with damage scaled off original
+    Ranged: Targets hit with the original projectile will spawn healing orb that targets the nearest ally
+  Secondary:
+    Melee: Uppercut version applies stun, dive version casts miniature copy of base utility
+    Ranged: Allies caught in the blast are given barrier equal to bullet damage
+  Utility: Enhanced to heal nearby allies that are in range, and to cause an additional cast from healed allies
+  Special: Consume all remaining stacks and give allies barrier based on health and stack count 
+
+Solo Form: Dramatic increase to regen, attack speed, and move speed (at the cost of taking extra damage?)
+  Primary:
+    Melee: Swing is much wider, hitting targets to the sides of user and applying bleed
+    Ranged: Now fires 3 bullets, with the first behaving normally and the others seeking nearest enemies
+  Secondary:
+    Melee: Replaces both versions with a forward lunge that deals large damage, stun, and knockback
+    Ranged: Bullet now creates smaller seeking bullets that hit nearby enemies (like Artificer full-charge but faster)
+  Utilty: Larger AoE than original, applies bleed and armor debuff to enemies hit
+  Special: Consume all remaining stacks and deal map-wide damage based on stack count
