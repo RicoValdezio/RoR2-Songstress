@@ -22,7 +22,7 @@ namespace SongstressPlugin
             {
                 name = "SongstressCharge",
                 iconPath = null,
-                buffColor = ColorLibrary.ChosenColor,
+                buffColor = Color.white,
                 isDebuff = false,
                 canStack = true,
                 eliteIndex = EliteIndex.None
@@ -37,7 +37,7 @@ namespace SongstressPlugin
             {
                 name = "SongstressEncore",
                 iconPath = null,
-                buffColor = ColorLibrary.ChosenColor,
+                buffColor = Color.white,
                 isDebuff = false,
                 canStack = false,
                 eliteIndex = EliteIndex.None
@@ -52,7 +52,7 @@ namespace SongstressPlugin
             {
                 name = "SongstressSolo",
                 iconPath = null,
-                buffColor = ColorLibrary.ChosenColor,
+                buffColor = Color.white,
                 isDebuff = false,
                 canStack = false,
                 eliteIndex = EliteIndex.None

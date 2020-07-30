@@ -16,7 +16,6 @@ namespace SongstressPlugin
         private void Awake()
         {
             if (instance == null) instance = this;
-            ColorLibrary.Init();
             SongstressSurvivor.Init();
             BuffLibrary.Init();
             //TestTimerHook.Init(); //This is debug/play only

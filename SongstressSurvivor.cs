@@ -52,7 +52,7 @@ namespace SongstressPlugin
                 descriptionToken = "SONGSTRESS_DESC",
                 bodyPrefab = bodyPrefab,
                 displayPrefab = displayPrefab,
-                primaryColor = ColorLibrary.ChosenColor,
+                primaryColor = ColorLibrary.ZeroColor,
                 unlockableName = ""
             };
             SurvivorAPI.AddSurvivor(survivorDef);

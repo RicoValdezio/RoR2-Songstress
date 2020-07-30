@@ -27,3 +27,12 @@ Solo Form: Dramatic increase to regen, attack speed, and move speed (at the cost
     Ranged: Bullet now creates smaller seeking bullets that hit nearby enemies (like Artificer full-charge but faster)
   Utilty: Larger AoE than original, applies bleed and armor debuff to enemies hit
   Special: Consume all remaining stacks and deal map-wide damage based on stack count
+
+Visual Design:
+  Head: Not sure yet, don't really want a face, but not sure how to reinforce the siren/songstress design
+  Outift: High-low dress with sharp edges (think Skullgirls Eliza) and a slight siren/mermaid motif, likely a v-cut neck for that 80's vibe
+  Legs: Stub feet similar to how the Artificer's legs look, will probably float instead of walk
+  Arms:
+    Right: Right arm and hand will be normal, and will not be holding anything as hand movement will be important for ranged attacks
+    Left: Left arm will be mechanical starting from the mid-upper arm (think Terminator/DoD3 Zero/Kenshi Skeleton), and will hold the weapon
+  Weapon: Hybrid winged staff, with the center pike being a microphone and the side pikes being khopesh blades
