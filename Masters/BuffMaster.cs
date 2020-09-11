@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SongstressPlugin
 {
-    class BuffLibrary
+    class BuffMaster
     {
         internal static BuffIndex ChargeIndex, EncoreIndex, SoloIndex;
 

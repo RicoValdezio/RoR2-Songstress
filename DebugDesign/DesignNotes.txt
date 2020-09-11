@@ -31,7 +31,9 @@ Solo Form: Dramatic increase to regen, attack speed, and move speed (at the cost
 Visual Design:
   Head: Not sure yet, don't really want a face, but not sure how to reinforce the siren/songstress design
   Outift: High-low dress with sharp edges (think Skullgirls Eliza) and a slight siren/mermaid motif, likely a v-cut neck for that 80's vibe
+    V2: Keep the high-low dress but at an angle, add a sharkskin pattern to the main dress and a single/twin tailfin to end of low side, exposed the shoulder to make right arm more visible
   Legs: Stub feet similar to how the Artificer's legs look, will probably float instead of walk
+    V2: May decide to mechanic one of the legs to give a slightly pirate-y look, probably the left leg
   Arms:
     Right: Right arm and hand will be normal, and will not be holding anything as hand movement will be important for ranged attacks
     Left: Left arm will be mechanical starting from the mid-upper arm (think Terminator/DoD3 Zero/Kenshi Skeleton), and will hold the weapon

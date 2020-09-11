@@ -6,6 +6,7 @@ namespace SongstressPlugin
     [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
     [R2APISubmoduleDependency(new string[] { "BuffAPI", "ResourcesAPI", "LanguageAPI", "SurvivorAPI", "LoadoutAPI" })]
     [BepInPlugin(modGuid, modName, modVer)]
+    [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod,VersionStrictness.EveryoneNeedSameModVersion)]
     public sealed class SongstressPlugin : BaseUnityPlugin
     {
         private const string modName = "Songstress";
@@ -17,7 +18,7 @@ namespace SongstressPlugin
         {
             if (instance == null) instance = this;
             SongstressSurvivor.Init();
-            BuffLibrary.Init();
+            BuffMaster.Init();
             //TestTimerHook.Init(); //This is debug/play only
         }
     }

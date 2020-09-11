@@ -30,7 +30,7 @@ namespace SongstressPlugin
         {
             LanguageAPI.Add("SONGSTRESS_NAME", "Songstress");
             string desc = "The Songstress is a hybrid support character who excels in fighting large groups and buffing their team."
-                        + ColorLibrary.DescGreyString
+                        + ColorMaster.DescGreyString
                         + Environment.NewLine + Environment.NewLine
                         + "< ! > Something about Star Power/In-Tune."
                         + Environment.NewLine + Environment.NewLine
@@ -40,7 +40,7 @@ namespace SongstressPlugin
                         + Environment.NewLine + Environment.NewLine
                         + "< ! > Something about special that consumes Star Power/In-Tune to provide major buff."
                         + Environment.NewLine + Environment.NewLine
-                        + ColorLibrary.EndString;
+                        + ColorMaster.EndString;
             LanguageAPI.Add("SONGSTRESS_DESC", desc);
         }
 
@@ -52,7 +52,7 @@ namespace SongstressPlugin
                 descriptionToken = "SONGSTRESS_DESC",
                 bodyPrefab = bodyPrefab,
                 displayPrefab = displayPrefab,
-                primaryColor = ColorLibrary.ZeroColor,
+                primaryColor = ColorMaster.ZeroColor,
                 unlockableName = ""
             };
             SurvivorAPI.AddSurvivor(survivorDef);
