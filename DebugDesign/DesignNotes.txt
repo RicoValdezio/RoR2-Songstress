@@ -30,11 +30,20 @@ Solo Form: Dramatic increase to regen, attack speed, and move speed (at the cost
 
 Visual Design:
   Head: Not sure yet, don't really want a face, but not sure how to reinforce the siren/songstress design
-  Outift: High-low dress with sharp edges (think Skullgirls Eliza) and a slight siren/mermaid motif, likely a v-cut neck for that 80's vibe
+  Outfit: High-low dress with sharp edges (think Skullgirls Eliza) and a slight siren/mermaid motif, likely a v-cut neck for that 80's vibe
     V2: Keep the high-low dress but at an angle, add a sharkskin pattern to the main dress and a single/twin tailfin to end of low side, exposed the shoulder to make right arm more visible
   Legs: Stub feet similar to how the Artificer's legs look, will probably float instead of walk
     V2: May decide to mechanic one of the legs to give a slightly pirate-y look, probably the left leg
   Arms:
     Right: Right arm and hand will be normal, and will not be holding anything as hand movement will be important for ranged attacks
+      V2: Will probably want a sleeve of some kind, it should work with the rest of the outfit's styling and could run up to the back of the knuckles
     Left: Left arm will be mechanical starting from the mid-upper arm (think Terminator/DoD3 Zero/Kenshi Skeleton), and will hold the weapon
-  Weapon: Hybrid winged staff, with the center pike being a microphone and the side pikes being khopesh blades
+      V2: May be mechanical from the shoulder in order to get another ball joint showing, but if using the V2 outfit it likely won't show
+  Weapon: Hybrid winged staff, with the center pike being a microphone and the side pikes being khopesh blades; heavy eqyptian influence with a trident-like look
+  
+Alternate Costumes: Would like to include references to the main influences that can be unlocked with certain achievements, all will share the same model but with varied colors
+  Gold: This is an Eliza/Five reference, and it will unlock by beating Aurelion
+  White: This is a Zero/One reference, and it will unlock by maintaining either Encore or Solo for 5 continuous minutes (may change length)
+  Blue: This is a Two reference, and it will unlock by killing any boss with a Solo Special (may make it multiple bosses with a single finale)
+  Purple: This is a Three reference, and it will unlock by stunning at least 3 friendly units with the Base or Solo Utility (may scrap this entirely)
+  Green: This is a Four reference, and it will unlock by fully healing at least 3 friendly units with the Encore Special (may also scrap this entirely)
