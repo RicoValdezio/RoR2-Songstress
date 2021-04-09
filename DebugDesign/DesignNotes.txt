@@ -32,6 +32,7 @@ Visual Design:
   Head: Not sure yet, don't really want a face, but not sure how to reinforce the siren/songstress design
   Outfit: High-low dress with sharp edges (think Skullgirls Eliza) and a slight siren/mermaid motif, likely a v-cut neck for that 80's vibe
     V2: Keep the high-low dress but at an angle, add a sharkskin pattern to the main dress and a single/twin tailfin to end of low side, exposed the shoulder to make right arm more visible
+    V3: Maybe not a dress, instead some sort of pareo (single or double-wrapped) with a heart-protector/breastplate, that way the flowing edge can still work while having the "battle-maiden" look
   Legs: Stub feet similar to how the Artificer's legs look, will probably float instead of walk
     V2: May decide to mechanic one of the legs to give a slightly pirate-y look, probably the left leg
   Arms:
@@ -39,7 +40,9 @@ Visual Design:
       V2: Will probably want a sleeve of some kind, it should work with the rest of the outfit's styling and could run up to the back of the knuckles
     Left: Left arm will be mechanical starting from the mid-upper arm (think Terminator/DoD3 Zero/Kenshi Skeleton), and will hold the weapon
       V2: May be mechanical from the shoulder in order to get another ball joint showing, but if using the V2 outfit it likely won't show
+      V3: Definitely keeping the shoulder human, with a cuff to connect to the mechanical portion, probably just two basic joints to keep skeletal feel
   Weapon: Hybrid winged staff, with the center pike being a microphone and the side pikes being khopesh blades; heavy eqyptian influence with a trident-like look
+    V3: Keep the khopesh blades but reduce the staff to a medium sword handle, this will free up motion behind the blade to compensate for limitted sword-hand movement
   
 Alternate Costumes: Would like to include references to the main influences that can be unlocked with certain achievements, all will share the same model but with varied colors
   Gold: This is an Eliza/Five reference, and it will unlock by beating Aurelion
